@@ -1,0 +1,18 @@
+spring:
+    mail:
+      default-encoding: UTF-8
+      host: smtp.gmail.com
+      username: goen.lee@gmail.com
+      password: Hay_caraba19
+      port: 587
+      properties:
+          mail:
+            ssl:
+              enable: true
+            smtp:
+              auth: true
+              starttls: 
+                enable: true
+                requeried: true
+      protocol: smtp
+      test-connection: false
